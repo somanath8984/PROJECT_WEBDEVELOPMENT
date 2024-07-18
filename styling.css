@@ -1,0 +1,149 @@
+#container{
+    
+    width:1050px;
+    margin:0 auto;
+
+}
+h1 a{
+    font-size: 55px;
+    font-weight: 100px;
+    color:blueviolet;
+    text-decoration: none;
+
+}
+#brand{
+    float: left;
+    
+}
+#searchbox{
+    float:right;
+    background: linear-gradient(#e4f2b9,#b7e953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    
+
+}
+.text{
+float: left;
+width: 200px;
+padding: 5px;
+color:orangered;
+font-size: 10px;
+background:white url("C:\\Users\\ASUS\\Desktop\\UDEMY\\mathematicswebsite\\icons8-search-50.jpg") right center no-repeat;
+
+}
+.submit{
+    float:right;
+padding:5px;
+font-weight: bold;
+color: white;
+background: #a751d6;
+font-size: 15px;
+}
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+#menu{
+    height: 70px;
+    background:linear-gradient(#f8f594,#d5d533);
+    padding: 8.4px 0;
+}
+
+
+#menu ul li{
+    float: left;
+    padding: 0 34px;
+    height: 30px;
+    border-right: 1px solid  #5d12e7 ;
+    
+}
+#menu ul li :last-child{
+    border-right: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #5d12e7;
+    line-height: 30px;
+    -webkit-transition:font-size is 0.4s ease;
+-moz-transition:font-size is 0.4s ease;
+   -o-transition:font-size is 0.4s ease;
+    -ms-transition:font-size is 0.4s ease ;
+    transition:font-size is 0.4s ease ;
+    
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size:20px;
+    font-weight: bold;
+    color:#B314DB;
+}
+#introduction{
+    background:linear-gradient(#E5F2BB,#B7E952) ;
+    padding: 30px;
+    margin: 16px 0;
+}
+#introduction h2{
+    font-size:45px;
+    color: #316901;
+    font-weight: normal;
+}
+#introduction p{
+    font-size: 30px;
+    color:#628f19;
+    text-align: justify;
+}
+.slidebar{
+    height:500px;
+    width:450px;
+    border: 1px solid #BAF46F;
+border-radius:20px;
+padding: 10px 30px;
+}
+#leftslidebar{
+    float:left;
+padding-bottom: 6px;
+
+}
+#rightslidebar{
+    float:right;
+}
+.slidebar h3{
+    color: #b314db;
+    font-size: 30px;
+
+}
+.slidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+}
+.slidebar ul li a:hover,.slidebar ul li a.active{
+    text-decoration: none;
+    color: #b314db;
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-transition:font-size is 0.4s ease;
+-moz-transition:font-size is 0.4s ease;
+   -o-transition:font-size is 0.4s ease;
+    -ms-transition:font-size is 0.4s ease ;
+    transition:font-size is 0.4s ease ;
+}
+#leftslidebar ul li {
+    padding-bottom: 6px;
+    list-style-image: url("C:\\Users\\ASUS\\Desktop\\UDEMY\\mathematicswebsite\\arrow1.png");
+    padding-left: 10px;
+    
+}
+#rightslidebar ul li{
+
+list-style-image: url("C:\\Users\\ASUS\\Desktop\\UDEMY\\mathematicswebsite\\green tick.png");
+}
